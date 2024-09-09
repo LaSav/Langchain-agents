@@ -1,7 +1,6 @@
 from langchain.callbacks.base import BaseCallbackHandler
 from pyboxen import boxen
 
-
 def boxen_print(*args, **kwargs):
   print(boxen(*args, **kwargs))
 
